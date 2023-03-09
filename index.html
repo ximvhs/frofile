@@ -14,7 +14,7 @@
 <body>
     <div class="app grid wide">
         <div class="header">
-            <img src="assets/img/bo-hinh-nen-ronaldo-4k_075052236.jpg" alt="#">
+            <img src="/assets/img/bo-hinh-nen-ronaldo-4k_075052236.jpg" alt="#">
         </div>
         <div class="container grid ">
             <div class="row">
@@ -30,6 +30,7 @@
                         <li>
                             <h3>Giới thiệu</h3>
                             <p><i class="fas fa-heart"></i></p>
+                            
                         </li>
                         <li>
                             <i class="fa-solid fa-graduation-cap"></i>
@@ -83,59 +84,82 @@
                             <h3 class="active">PHOTO</h3>
                         </div>
                         <div class="nut">
-                            <button onclick="noti()">Follow</button>
+                            <button class="js_modal">CONTACT</button>
                         </div>
                     </div>
                     <div class="picture_img grid ">
                         <div class="row">
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/Hinh-nen-ronaldo-cr7-may-tinh-laptop-3-scaled.jpg" alt="">
+                                <img src="/assets/img/Hinh-nen-ronaldo-cr7-may-tinh-laptop-3-scaled.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/t4.jpg" alt="">
+                                <img src="/assets/img/t4.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/Hinh-nen-ronaldo-cr7-may-tinh-laptop-3-scaled.jpg" alt="">
+                                <img src="/assets/img/Hinh-nen-ronaldo-cr7-may-tinh-laptop-3-scaled.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             <div class="item col l-4 m-3 c-6">
-                                <img src="assets/img/h10.jpg" alt="">
+                                <img src="/assets/img/h10.jpg" alt="">
                             </div>
                             
                         </div>
                             
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal -->
+        <div class="modal js_modal-show open ">
+            <div class="modal_body ">
+                <div class="modal_container js-auth-form ">
+                    <h1 class="modal__tilte">CONTACT</h1>
+                    <i class="fas fa-window-close js-close"></i>
+                    <div class="modal_nd">
+                        <div class="nd_nhap">
+                            <p>Bạn lên gì?</p>
+                            <input placeholder="Họ và tên" type="text">
+                        </div>
+                        <div class="nd_nhap">
+                            <p>Bạn muốn gửi gì với mình!!!</p>
+                            <textarea class="nd_nhap--long" placeholder="Nhập nội dung bạn cần gửi vào đây" style="resize:none;" ></textarea>
+                        </div>
+                    </div>
+                    <div class="modal_footer">
+                        <button class="js-close">Send</button>
                     </div>
                 </div>
             </div>
