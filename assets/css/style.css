@@ -8,12 +8,17 @@
 
 body {
     background-color: var(--background-color);
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
 }
 
 .app {
     background-color: white;
     border-radius: 20px;
     overflow:hidden;
+
 }
 
 .header {
@@ -88,6 +93,8 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    transition: all 0.1s linear;
+    transform: scale(1);
 }
 
 .picture_img {
@@ -95,13 +102,26 @@ body {
     overflow-y: auto;   
 }
 
-.picture_img .item:hover {
-   opacity: 0.8; 
-   cursor: pointer;
+.picture_img .item_zoom {
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
 }
 
+.picture_img .item:hover {
+    opacity: 0.8; 
+    cursor: pointer;
+}
+
+
+.picture_img img:hover {
+    transform: scale(1.1);
+ }
+
 .item {
-    background-color: orange;
+    /* background-color: orange; */
     height: 150px;
     background-clip: content-box;
     margin-top: 8px;
